@@ -7,25 +7,45 @@
 
 
 [a-zA-Z_][a-zA-Z0-9_]*    TIDENTIFIER
+
 [0-9]+.[0-9]*             TDOUBLE
+
 [0-9]+                    TINTEGER
+
 "="                      TOKEN(TEQUAL)
+
 "=="                     TOKEN(TCEQ)
+
 "!="                     TOKEN(TCNE)
+
 "<"                      TOKEN(TCLT)
+
 "<="                     TOKEN(TCLE)
+
 ">"                      TOKEN(TCGT)
+
 ">="                     TOKEN(TCGE)
+
 "("                      TOKEN(TLPAREN)
+
 ")"                      TOKEN(TRPAREN)
+
 "{"                      TOKEN(TLBRACE)
+
 "}"                      TOKEN(TRBRACE)
+
 "."                      TOKEN(TDOT)
+
 ","                      TOKEN(TCOMMA)
+
 "+"                      TOKEN(TPLUS)
+
 "-"                      TOKEN(TMINUS)
+
 "*"                      TOKEN(TMUL)
+
 "/"                      TOKEN(TDIV)
+
 
 ## BNF grammer
 
